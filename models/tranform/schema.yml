@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: tf_logs
+    columns:
+      - name: Client_id
+      - name: client_name

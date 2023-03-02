@@ -42,7 +42,7 @@ quoting:
 models:
     replica:
         materialized: table
-        meey_log:
+        tranform:
             materialized: table
     #   generated:
     #     airbyte_ctes:
