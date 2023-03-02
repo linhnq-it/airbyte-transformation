@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: logs
+
+    columns:
+      - name: id
+        description: This is a unique identifier for a customer
+        tests:
+          - unique
+          - not_null
+
+      - name: clientId
+      
+      - name: body
+
+      - name: userInfo
+
+
+  - name: clients
+
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+        description: This is a unique identifier for an order
+
+      - name: name
+        tests:
+          - unique
+          - not_null
